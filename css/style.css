@@ -46,6 +46,7 @@ p{
 ====================*/
 
 .header{
+    margin-bottom: 110px;
     padding: 1rem 0;
 
     background: #2B7DED;
@@ -94,4 +95,63 @@ p{
     position: absolute;
     left: 0;
     bottom: 10px;
+}
+
+/*Content
+====================*/
+
+.content{
+width: 573px;
+}
+
+.subtitle{
+    font-size: 1.4rem;
+    font-weight: 300;
+    
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.title{
+    margin-bottom: 35px;
+
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2;
+
+}
+.title span{
+    color:#2B7DED ;
+}
+
+.text{
+    margin-bottom: 50px;
+
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+/*Btn
+====================*/
+
+.btn{
+    display:inline-block;
+    padding: 12px 35px;
+    
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+
+    background-color:#2B7DED ;
+
+    border-radius: 0.33333rem;
+    transition: background 0.3s linear;
+}
+
+.btn:hover{
+    background-color: darkblue;}
+
 }
