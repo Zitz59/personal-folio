@@ -28,8 +28,9 @@ p{
 
 .container{
     width: 100%;
-    max-width: 1000px;
+    max-width: 1030px;
     margin: 0 auto;
+    padding: 1rem;
 }
 /*Page*/
 
@@ -102,7 +103,9 @@ p{
 ====================*/
 
 .content{
-width: 563px;
+height: 100%;
+width: 100%;
+max-width: 565px;
 }
 
 .content-header{
@@ -274,4 +277,61 @@ left: 0px;
 
 .textarea::placeholder{
     color: #fff;
+}
+
+/*Media
+=================*/
+@media(max-width:1000px;){
+    .author{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 767px;){
+    .header-logo{
+        display: none;
+
+    }
+    .header-brand{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 565px;){
+
+            /*Header*/
+    .header-inner{
+        flex-direction: column;
+    }
+
+    .header-brand{
+        margin-bottom: 1rem;
+    }
+
+
+            /*Content*/
+
+        .content{
+            text-align: center;
+        }
+
+
+
+            /*Contacts*/
+
+    .contacts{
+        flex-direction: column;
+    }
+
+    .contacts-link{
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .contacts-link :last-child::after{
+        display: none;
+    }    
+
 }
